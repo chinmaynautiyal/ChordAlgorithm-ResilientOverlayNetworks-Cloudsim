@@ -44,7 +44,7 @@ class chordSystem(totalnodes: Int, NumRequests: Int, users: Int) extends Actor {
 
         var flag = true
         // println("n->"+n)
-        var entry = ((n + math.pow(2, l - 1)) % (math.pow(2, m).toInt)).toInt //sharique wrong
+        var entry = ((n + math.pow(2, l - 1)) % (math.pow(2, m).toInt)).toInt
         var min = 99999
         var min_id = 0
         var count = 0
